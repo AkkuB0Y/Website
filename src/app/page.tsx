@@ -1,95 +1,60 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+'use client';
+
+import { LinearGradient } from 'react-text-gradients'
+import Link from 'next/link';
+import * as React from 'react';
+import { Card, CardBody } from '@chakra-ui/react'
 
 export default function Home() {
+
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+    <main className="text-slate-900 dark:text-slate-50 ease-in-out duration-150">
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <center><h1 className="mt-8 mx-16 text-5xl font-bold">Hello! I'm   
+        
+        <LinearGradient gradient = {['to left', 'rgb(253, 183, 45), rgb(84,34,195)']}
+        className='text-shadow-lg shadow-indigo-400/20'> Akshay  
+        
+        <span className="text-shadow-lg shadow-orange-400/40"> Satish</span>
+        </LinearGradient>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+      </h1></center>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
+      
+      <Card className="mx-12 mt-16 flex flex-row text-base text-center inline font-light lg:mx-48 md:mx-32 sm:mx-12">
+      <CardBody>
+      <text>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        Hello! I'm Akshay Satish, a Computer Engineering student at the University of Waterloo heading into my 1B term. 
+        This personal website documents my professional and personal journey, displaying many of my technical and non-technical
+        achievements. 
+
+        <br/>
+        <br/>
+
+        Moving over to the <Link href="/projects" className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Projects</Link> tab, 
+        you'll find some of my previous software work, which involves my skills in web-dev, firmware testing and project design. On 
+        the <Link href="/fun" className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Fun</Link> tab 
+        however, you'll find some of the fun things I post on my social media!
+
+        <br/>
+        <br/>
+
+        Please take your time to go through this website and its contents. If you would like to contact me for
+        professional inquiries, please email me at <Link href="#" className="hover:underline">asatish@uwaterloo.ca</Link>, but for personal inquiries, email me 
+        at <Link href="#" className="hover:underline">akkusat1987@gmail.com</Link>.
+
+      </text>
+
+      </CardBody>
+      </Card>
+
     </main>
+
   )
+
+  // card:
+  // rounded-xl px-6 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150
 }
