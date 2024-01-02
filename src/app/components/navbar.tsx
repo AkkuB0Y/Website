@@ -1,10 +1,11 @@
 'use client'
 
+import { FaHome } from 'react-icons/fa'
 import Link from 'next/link'
-import {TbLetterA, TbLetterS} from 'react-icons/tb'
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 import * as React from 'react';
-import {useEffect} from 'react';
+import { useEffect } from 'react';
+import { motion } from 'framer-motion'
 
 export default function navbar () {
 
@@ -23,9 +24,7 @@ export default function navbar () {
 
     })
 
-    /*  fix this later!*/
-
-    const [isDarkMode, setDarkMode] = React.useState(false);
+    const [isDarkMode, setDarkMode] = React.useState(true);
 
     const toggleDarkMode = (checked: boolean) => {
         setDarkMode(!isDarkMode);
@@ -43,20 +42,25 @@ export default function navbar () {
     })
     
     return (
+        <motion.div
+            initial={{ opacity: 0.05 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1 }}
+            >
         <nav className = "mt-3 flex flex-row justify-between">
-            <div className="text-left no-underline text-zinc-600 font-semibold font-serif text-2xl align-top    ">
-            <Link href="/" className="px-4 py-4 align-top inline-flex rounded-xl hover:text-[rgb(84,34,195)] ease-in-out duration-300 dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-150">
-                AS.
+            <div className="text-left no-underline text-zinc-600 font-semibold font-serif text-3xl align-top    ">
+            <Link href="/" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] ease-in-out duration-300 dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-150">
+                <FaHome/>
             </Link>
             </div>
             <div className="text-right no-underline text-zinc-600 font-medium ">
-                <Link href="/" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                    Home</Link>
                 <Link href="/projects" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     Projects</Link>
                 <Link href="/portfolio" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     Portfolio</Link>
-                <Link href="/fun" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                <Link href="/organizations" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                    Organizations</Link>
+                <Link href="https://linktr.ee/akshaysatish" target='_blank' className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     Fun</Link>
                 <DarkModeSwitch 
                     className=
@@ -66,8 +70,7 @@ export default function navbar () {
                 />
             </div>
            
-
-
         </nav>
+        </motion.div>
     )
 }

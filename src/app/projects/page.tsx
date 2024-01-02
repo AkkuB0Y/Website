@@ -1,15 +1,20 @@
-'use client';
+'use client'
 
 import { LinearGradient} from 'react-text-gradients'
 import * as React from 'react';
-import { Card, CardBody, CardFooter } from '@chakra-ui/react'
-import { Image, Stack, Button, Heading } from '@chakra-ui/react'
+import { Card, Image, Stack } from '@chakra-ui/react'
+import { motion } from 'framer-motion'
 import Link from 'next/link';
 
 export default function projects() {
 
   return (
 
+    <motion.div
+        initial={{ opacity: 0.05 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
     <main className="text-slate-900 dark:text-slate-50 ease-in-out duration-150">
 
       <center><h1 className="mt-8 text-5xl font-bold">My
@@ -22,6 +27,12 @@ export default function projects() {
       </h1></center>
 
       <div className='mx-[10%] lg:mx-[25%] md:mx-[15%] sm:mx-[10%] mt-12 flex flex-col justify-between text-base text-center font-light'>
+        
+       <motion.div
+          initial={{ opacity: 0.05 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
         <Card 
           className = "flex flex-row justify-between align-middle rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
@@ -48,7 +59,13 @@ export default function projects() {
               Link</Link>
           </Stack>
         </Card>
+        </motion.div>
 
+        <motion.div
+            initial={{ opacity: 0.05 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.2, duration: 1 }}
+        >
         <Card 
           className = "flex flex-row justify-between align-middle mt-8 rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
@@ -71,15 +88,19 @@ export default function projects() {
               Designed and implemented an STM microcontroller based decibel meter using Altium, embedded C code, and the microcontroller
             </text>
 
-            <Stack direction={'row'}>
-              <Link href="#" className = "mt-1 px-1 py-2 w-16 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
-                Link</Link>
+            <Stack direction={'row'}>       
               <Link href="https://github.com/AkkuB0Y/ProjectStudio" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
                 GitHub</Link>
             </Stack>
           </Stack>
         </Card>
+        </motion.div>
 
+        <motion.div
+            initial={{ opacity: 0.05 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.4, duration: 1 }}
+        >
         <Card 
           className = "flex flex-row justify-between align-middle mt-8 rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
@@ -106,9 +127,11 @@ export default function projects() {
               GitHub</Link>
           </Stack>
         </Card>
+        </motion.div>
       </div>
       
     </main>
+    </motion.div>
 
   )
   // card:
@@ -118,5 +141,12 @@ export default function projects() {
           My first project
         </h1>
 
+  */
+
+  /*
+    link (use whenever):
+
+    <Link href="#" className = "mt-1 px-1 py-2 w-16 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+        Link</Link> 
   */
 }

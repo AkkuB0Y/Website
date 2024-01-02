@@ -1,4 +1,4 @@
-import { LinearGradient, RadialGradient } from 'react-text-gradients'
+import { LinearGradient } from 'react-text-gradients'
 import * as React from 'react';
 
 export default function fun () {
@@ -15,7 +15,17 @@ export default function fun () {
             <span className="text-shadow-lg shadow-orange-400/40"> Fun!</span>
             </LinearGradient>
 
-      </h1></center>
+            </h1></center>
+
+            
         </main>
     )
 }
+/*
+            <div className='items-center mt-12'>
+                <center>
+                    <iframe className="rounded-[12px] w-[50%] object-center" src="https://open.spotify.com/embed/playlist/1M462SRJnI3Y2Olb9C608j?utm_source=generator&theme=0" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </center>
+            </div>
+
+*/
