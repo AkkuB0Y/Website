@@ -43,7 +43,7 @@ export default function Home() {
         <CardBody className='mx-8 text-left'>
           <text>
 
-            Hello! I'm Akshay Satish, a Computer Engineering student at the University of Waterloo heading into my 1B term. 
+            Hello! I&apos;m Akshay Satish, a Computer Engineering student at the University of Waterloo heading into my 1B term. 
             This personal website documents my professional and personal journey, displaying many of my technical and non-technical
             achievements. 
 
@@ -51,9 +51,9 @@ export default function Home() {
             <br/>
 
             Moving over to the <Link href="/projects" className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Projects</Link> tab, 
-            you'll find some of my previous software work, which involves my skills in web-dev, firmware testing and project design. On 
+            you&apos;ll find some of my previous software work, which involves my skills in web-dev, firmware testing and project design. On 
             the <Link href="https://linktr.ee/akshaysatish" target='_blank' className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Fun</Link> tab 
-            however, you'll find some of the fun things I post on my social media!
+            however, you&apos;ll find some of the fun things I post on my social media!
 
             <br/>
             <br/>
