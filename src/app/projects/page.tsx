@@ -64,7 +64,7 @@ export default function projects() {
         <motion.div
             initial={{ opacity: 0.05 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 1 }}
+            transition={{ delay: 0.3, duration: 1 }}
         >
         <Card 
           className = "flex flex-row justify-between align-middle mt-8 rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
@@ -99,7 +99,7 @@ export default function projects() {
         <motion.div
             initial={{ opacity: 0.05 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.4, duration: 1 }}
+            transition={{ delay: 0.6, duration: 1 }}
         >
         <Card 
           className = "flex flex-row justify-between align-middle mt-8 rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"

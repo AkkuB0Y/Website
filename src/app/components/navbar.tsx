@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { FaHome } from 'react-icons/fa'
 import Link from 'next/link'
@@ -7,7 +7,7 @@ import * as React from 'react';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion'
 
-export default function navbar () {
+export default function Navbar () {
 
     useEffect (() => {
         const userTheme = localStorage.getItem("theme");

@@ -1,11 +1,11 @@
-'use client'
+"use client"
 
 import {FaGithubSquare, FaLinkedinIn} from 'react-icons/fa'
 import { IoDocumentText } from "react-icons/io5";
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
-export default function footer () {
+export default function Footer () {
 
     return (
         <motion.div

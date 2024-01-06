@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 import { LinearGradient } from 'react-text-gradients'
 import Link from 'next/link';
@@ -16,12 +16,12 @@ export default function Home() {
     >
     <main className="text-slate-900 dark:text-slate-50 ease-in-out duration-150">
 
-      <center><h1 className="mt-8 mx-16 text-5xl font-bold">Hello! I'm   
+      <center><h1 className="mt-8 mx-16 text-5xl font-bold">Welcome to my 
         
         <LinearGradient gradient = {['to left', 'rgb(253, 183, 45), rgb(84,34,195)']}
-        className='text-shadow-lg shadow-indigo-400/20'> Akshay  
+        className='text-shadow-lg shadow-indigo-400/20'> Webs
         
-        <span className="text-shadow-lg shadow-orange-400/40"> Satish</span>
+        <span className="text-shadow-lg shadow-orange-400/40">ite!</span>
         </LinearGradient>
 
       </h1></center>
