@@ -28,7 +28,7 @@ export default function Home() {
 
       
       <Card 
-        className="mx-12 mt-16 flex flex-col items-center place-content-center object-center my-4 lg:flex-row md:flex-row sm:flex-col justify-between text-base text-center inline font-light lg:mx-48 md:mx-32 sm:mx-12"
+        className="mx-0 mt-16 flex flex-col items-center place-content-center object-center my-4 lg:flex-row md:flex-row sm:flex-col justify-between text-base text-center inline font-light lg:mx-48 md:mx-32"
         direction={{base: 'column', lg:'row'}}
         >
         <Image

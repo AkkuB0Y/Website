@@ -21,8 +21,6 @@ export default function Footer () {
                     <FaGithubSquare className="text-2xl"/></Link>
                 <Link href="https://www.linkedin.com/in/akshaysatish26205" target="_blank" className = "px-4 py-4 text-center items-center inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     <FaLinkedinIn className="text-2xl"/></Link>
-                <Link href="https://www.overleaf.com/read/gvbdndynvmxy#47c760" target="_blank" className = "px-4 py-4 text-center items-center inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                    <IoDocumentText className="text-2xl"/></Link>
 
             </div>
         </main>

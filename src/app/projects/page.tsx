@@ -26,7 +26,7 @@ export default function projects() {
         </LinearGradient>
       </h1></center>
 
-      <div className='mx-[10%] lg:mx-[25%] md:mx-[15%] sm:mx-[10%] mt-12 flex flex-col justify-between text-base text-center font-light'>
+      <div className='mx-[1%] lg:mx-[25%] md:mx-[15%] sm:mx-[0%] mt-12 flex flex-col justify-between text-base text-center font-light'>
         
        <motion.div
           initial={{ opacity: 0.05 }}
@@ -34,17 +34,15 @@ export default function projects() {
           transition={{ duration: 1 }}
         >
         <Card 
-          className = "flex flex-row justify-between align-middle rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          className = "flex flex-row justify-between align-middle items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
           >
           <Image
             className = "rounded-full outline outline-3 align-middle max-w-none"
-            boxSize = '120px'
-            objectFit={'fill'}
+            boxSize = '100px'
             maxW={'100%'}
-            fit={'fill'}
             src='ktb.png'
-            alt='test'
+            alt='ktb'
           />
           <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
             <text className='text-2xl font-medium'>
@@ -67,17 +65,15 @@ export default function projects() {
             transition={{ delay: 0.3, duration: 1 }}
         >
         <Card 
-          className = "flex flex-row justify-between align-middle mt-8 rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
           >
           <Image
             className = "rounded-full outline outline-3 align-middle max-w-none"
-            boxSize = '120px'
-            objectFit={'fill'}
+            boxSize = '100px'
             maxW={'100%'}
-            fit={'fill'}
             src='https://images.unsplash.com/photo-1592659762303-90081d34b277?q=80&w=3173&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-            alt='test'
+            alt='ece198'
           />
           <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
             <text className='text-2xl font-medium'>
@@ -102,17 +98,15 @@ export default function projects() {
             transition={{ delay: 0.6, duration: 1 }}
         >
         <Card 
-          className = "flex flex-row justify-between align-middle mt-8 rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
           >
           <Image
             className = "rounded-full outline outline-3 align-middle max-w-none"
-            boxSize = '120px'
-            objectFit={'fill'}
+            boxSize = '100px'
             maxW={'100%'}
-            fit={'fill'}
             src='earth2.png'
-            alt='test'
+            alt='save-the-planet'
           />
           <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
             <text className='text-2xl font-medium'>
