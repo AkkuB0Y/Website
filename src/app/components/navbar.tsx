@@ -48,23 +48,21 @@ export default function Navbar () {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
             >
-        <nav className = "mt-3 flex flex-row justify-between">
-            <div className="text-left no-underline text-zinc-600 font-semibold font-serif text-3xl align-top    ">
+        <nav className = "mt-3 flex flex-row justify-between text-sm">
+            <div className="text-left no-underline text-zinc-600 font-semibold font-serif text-2xl align-top">
                 <Link href="/" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] ease-in-out duration-300 dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-150">
                     <FaHome/>
                 </Link>
-                <Link href="https://www.overleaf.com/read/gvbdndynvmxy#47c760" target="_blank" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] ease-in-out duration-300 dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-150">
+                <Link href="https://drive.google.com/file/d/1-4xwaTY2JIz_HZZzTsDOu8u7m7Tz2S9w/view?usp=sharing" target="_blank" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] ease-in-out duration-300 dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-150">
                         <IoDocumentText/></Link>
             </div>
-            <div className="text-right no-underline text-zinc-600 font-medium ">
+            <div className="text-right no-underline text-zinc-600 font-medium">
                 <Link href="/projects" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     Projects</Link>
                 <Link href="https://portfolio-akshaysatish.vercel.app" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     Portfolio</Link>
                 <Link href="/organizations" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
                     Organizations</Link>
-                <Link href="https://linktr.ee/akshaysatish" target='_blank' className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                    Fun</Link>
                 <DarkModeSwitch 
                     className=
                     "flex-1 relative w-5 inline-block cursor-pointer ml-2 mr-4 align-[-26%]"

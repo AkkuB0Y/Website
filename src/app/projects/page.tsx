@@ -64,40 +64,7 @@ export default function projects() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
         >
-        <Card 
-          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
-          direction={'row'}
-          >
-          <Image
-            className = "rounded-full outline outline-3 align-middle max-w-none"
-            boxSize = '100px'
-            maxW={'100%'}
-            src='https://images.unsplash.com/photo-1592659762303-90081d34b277?q=80&w=3173&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-            alt='ece198'
-          />
-          <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
-            <text className='text-2xl font-medium'>
-              Project Studio: Decibel Meter
-            </text>
-
-            <text>
-              Designed and implemented an STM microcontroller based decibel meter using Altium, embedded C code, and the microcontroller
-            </text>
-
-            <Stack direction={'row'}>       
-              <Link href="https://github.com/AkkuB0Y/ProjectStudio" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
-                GitHub</Link>
-            </Stack>
-          </Stack>
-        </Card>
-        </motion.div>
-
-        <motion.div
-            initial={{ opacity: 0.05 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.6, duration: 1 }}
-        >
-        <Card 
+          <Card 
           className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
           >
@@ -119,6 +86,40 @@ export default function projects() {
 
             <Link href="https://github.com/AkkuB0Y/Save-the-Planet" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
               GitHub</Link>
+          </Stack>
+        </Card>    
+        </motion.div>
+  
+        <motion.div
+            initial={{ opacity: 0.05 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 1 }}
+        >
+        <Card 
+          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          direction={'row'}
+          >
+          <Image
+            className = "rounded-full outline outline-3 align-middle max-w-none"
+            boxSize = '100px'
+            maxW={'100%'}
+            src='https://images.unsplash.com/photo-1592659762303-90081d34b277?q=80&w=3173&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            alt='ece198'
+          />
+          <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
+            <text className='text-2xl font-medium'>
+              Project Studio: Decibel Meter
+            </text>
+
+            <text>
+              Designed and implemented an STM microcontroller based decibel monitor using Altium, embedded C, and the STM32. 
+              Contact me at <span className="hover:underline">asatish@uwaterloo.ca</span> for source code.
+            </text>
+
+            <Stack direction={'row'}>       
+              <Link href="https://outlook.com" target='_blank' className = "mt-1 px-1 py-2 w-24 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+                Contact</Link>
+            </Stack>
           </Stack>
         </Card>
         </motion.div>

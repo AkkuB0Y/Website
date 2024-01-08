@@ -5,6 +5,7 @@ import Link from 'next/link';
 import * as React from 'react';
 import { Card, CardBody, Image } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
+import { FaMusic } from 'react-icons/fa'
 
 export default function Home() {
 
@@ -51,16 +52,16 @@ export default function Home() {
             <br/>
 
             Moving over to the <Link href="/projects" className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Projects</Link> tab, 
-            you&apos;ll find some of my previous software work, which involves my skills in web-dev, firmware testing and project design. On 
-            the <Link href="https://linktr.ee/akshaysatish" target='_blank' className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Fun</Link> tab 
-            however, you&apos;ll find some of the fun things I post on my social media!
+            you&apos;ll find some of my previous software work, which involves my skills in web-dev, firmware testing and project design. Clicking 
+            the <Link href="https://linktr.ee/akshaysatish" target='_blank' className = "text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">♫</Link> button 
+            however, you&apos;ll find some of the musical things I post on my social media!
 
             <br/>
             <br/>
 
             Please take your time to go through this website and its contents. If you would like to contact me for
             professional inquiries, please email me at <span className="hover:underline">asatish@uwaterloo.ca</span> and 
-            see my <Link href="https://www.overleaf.com/read/gvbdndynvmxy#47c760" target = "_blank" className="text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Resume</Link>
+            see my <Link href="https://drive.google.com/file/d/1-4xwaTY2JIz_HZZzTsDOu8u7m7Tz2S9w/view?usp=sharing" target = "_blank" className="text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Resume</Link>
             . For personal inquiries, email me at <span className="hover:underline">akkusat1987@gmail.com</span>.
 
           </text>
