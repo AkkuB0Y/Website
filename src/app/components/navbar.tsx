@@ -73,13 +73,13 @@ export default function Navbar () {
                             <TiThMenu className="text-2xl"/>
                         </MenuButton>
                         <MenuList className="z-50 px-5 py-5 text-center rounded-xl bg-zinc-200 dark:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                            <MenuItem as={NextLink} href="/projects" className="px-4 py-3 rounded-xl hover:bg-zinc-400 dark:hover:bg-zinc-500 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150">
+                            <MenuItem as={NextLink} href="/projects" className="px-4 py-3 rounded-xl hover:bg-zinc-300 dark:hover:bg-zinc-600 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150">
                                 <p>Projects</p>
                             </MenuItem>
-                            <MenuItem as={NextLink} href="https://portfolio-akshaysatish.vercel.app" className='px-4 py-3 rounded-xl hover:bg-zinc-400 dark:hover:bg-zinc-500 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150'>
+                            <MenuItem as={NextLink} href="https://portfolio-akshaysatish.vercel.app" className='px-4 py-3 rounded-xl hover:bg-zinc-300 dark:hover:bg-zinc-600 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150'>
                                 <p>Portfolio</p>
                             </MenuItem>
-                            <MenuItem as={NextLink} href="/organizations" className='px-4 py-3 rounded-xl hover:bg-zinc-400 dark:hover:bg-zinc-500 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150'>
+                            <MenuItem as={NextLink} href="/organizations" className='px-4 py-3 rounded-xl hover:bg-zinc-300 dark:hover:bg-zinc-600 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150'>
                                 <p>Organizations</p>
                             </MenuItem>
                         </MenuList>
