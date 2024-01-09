@@ -26,7 +26,7 @@ export default function projects() {
         </LinearGradient>
       </h1></center>
 
-      <div className='mx-[1%] lg:mx-[25%] md:mx-[15%] sm:mx-[0%] mt-12 flex flex-col justify-between text-base text-center font-light'>
+      <div className='z-0 mx-[1%] lg:mx-[25%] md:mx-[15%] sm:mx-[0%] mt-24 flex flex-col justify-between text-base text-center font-light'>
         
        <motion.div
           initial={{ opacity: 0.05 }}

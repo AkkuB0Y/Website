@@ -2,11 +2,20 @@
 
 import { FaHome } from 'react-icons/fa'
 import { IoDocumentText } from 'react-icons/io5';
+import { TiThMenu } from "react-icons/ti";
 import Link from 'next/link'
 import { DarkModeSwitch } from 'react-toggle-dark-mode';
 import * as React from 'react';
 import { useEffect } from 'react';
 import { motion } from 'framer-motion'
+import {
+    Menu,
+    MenuButton,
+    MenuList,
+    MenuItem,
+  } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
+import NextLink from 'next/link'
 
 export default function Navbar () {
 
@@ -56,19 +65,42 @@ export default function Navbar () {
                 <Link href="https://drive.google.com/file/d/1-4xwaTY2JIz_HZZzTsDOu8u7m7Tz2S9w/view?usp=sharing" target="_blank" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] ease-in-out duration-300 dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-150">
                         <IoDocumentText/></Link>
             </div>
-            <div className="text-right no-underline text-zinc-600 font-medium">
-                <Link href="/projects" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                    Projects</Link>
-                <Link href="https://portfolio-akshaysatish.vercel.app" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                    Portfolio</Link>
-                <Link href="/organizations" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
-                    Organizations</Link>
+
+            <div>
+                <div className="z-50 inline-block text-right text-medium text-zinc-600 dark:text-slate-50 align-[8%] md:hidden">
+                    <Menu>
+                        <MenuButton as={Button} className="px-4 py-4 rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                            <TiThMenu className="text-2xl"/>
+                        </MenuButton>
+                        <MenuList className="z-50 px-5 py-5 text-center rounded-xl bg-zinc-200 dark:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                            <MenuItem as={NextLink} href="/projects" className="px-4 py-3 rounded-xl hover:bg-zinc-400 dark:hover:bg-zinc-500 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150">
+                                <p>Projects</p>
+                            </MenuItem>
+                            <MenuItem as={NextLink} href="https://portfolio-akshaysatish.vercel.app" className='px-4 py-3 rounded-xl hover:bg-zinc-400 dark:hover:bg-zinc-500 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150'>
+                                <p>Portfolio</p>
+                            </MenuItem>
+                            <MenuItem as={NextLink} href="/organizations" className='px-4 py-3 rounded-xl hover:bg-zinc-400 dark:hover:bg-zinc-500 ease-in-out duration-300 dark:text-slate-50 ease-in-out duration-150'>
+                                <p>Organizations</p>
+                            </MenuItem>
+                        </MenuList>
+                    </Menu>
+                </div>
+
+                <div className="hidden md:inline-block text-right no-underline text-zinc-600 font-medium">
+                    <Link href="/projects" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                        Projects</Link>
+                    <Link href="https://portfolio-akshaysatish.vercel.app" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                        Portfolio</Link>
+                    <Link href="/organizations" className="px-4 py-4 inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50 ease-in-out duration-150">
+                        Organizations</Link>
+                    
+                </div>
                 <DarkModeSwitch 
-                    className=
-                    "flex-1 relative w-5 inline-block cursor-pointer ml-2 mr-4 align-[-26%]"
-                    checked={isDarkMode}
-                    onChange={toggleDarkMode}
-                />
+                        className=
+                        "mt-3.5 md:mt-0 flex-1 relative w-5 inline-block cursor-pointer ml-2 mr-4 align-[-28%]"
+                        checked={isDarkMode}
+                        onChange={toggleDarkMode}
+                    />
             </div>
            
         </nav>
