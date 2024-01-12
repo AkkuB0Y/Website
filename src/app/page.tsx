@@ -5,7 +5,6 @@ import Link from 'next/link';
 import * as React from 'react';
 import { Card, CardBody, Image } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
-import { FaMusic } from 'react-icons/fa'
 
 export default function Home() {
 
@@ -29,7 +28,7 @@ export default function Home() {
 
       
       <Card 
-        className="mx-0 mt-16 flex flex-col items-center place-content-center object-center my-4 lg:flex-row md:flex-row sm:flex-col justify-between text-base text-center inline font-light lg:mx-48 md:mx-32"
+        className="mx-0 mt-16 flex flex-col items-center place-content-center object-center my-4 lg:flex-row md:flex-row sm:flex-col justify-between text-base text-center font-light lg:mx-48 md:mx-32"
         direction={{base: 'column', lg:'row'}}
         >
         <Image
