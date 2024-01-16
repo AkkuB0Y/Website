@@ -64,6 +64,42 @@ export default function projects() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 1 }}
         >
+        <Card 
+          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          direction={'row'}
+          >
+          <Image
+            className = "rounded-full outline outline-3 align-middle max-w-none"
+            boxSize = '100px'
+            maxW={'100%'}
+            src='deltahacks.png'
+            alt='pharmfill'
+          />
+          <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
+            <text className='text-2xl font-medium'>
+              PharmFill: DeltaHacks X
+            </text>
+
+            <text>
+            <span className='font-bold'>MedX Challenge Winner & Top 10</span><br/>Mobile app designed to streamline prescription transfer between physicians, pharmacists and patients. 
+            Made with React Native, Flask, Cloud Vision OCR and Open AI API.
+            </text>
+
+            <Stack direction={'row'}>       
+              <Link href="https://github.com/AkkuB0Y/PharmFill" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+                GitHub</Link>
+              <Link href="https://devpost.com/software/pharmfill" target='_blank' className = "mt-1 px-1 py-2 w-24 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+                Devpost</Link>
+            </Stack>
+          </Stack>
+        </Card>
+        </motion.div>
+
+        <motion.div
+            initial={{ opacity: 0.05 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.6, duration: 1 }}
+        >
           <Card 
           className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
@@ -93,7 +129,7 @@ export default function projects() {
         <motion.div
             initial={{ opacity: 0.05 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.6, duration: 1 }}
+            transition={{ delay: 0.9, duration: 1 }}
         >
         <Card 
           className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"

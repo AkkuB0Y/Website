@@ -1,6 +1,6 @@
 'use client'
 
-import { LinearGradient, RadialGradient } from 'react-text-gradients'
+import { LinearGradient } from 'react-text-gradients'
 import { Card, Image } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
 import * as React from 'react';
@@ -33,7 +33,7 @@ export default function organizations () {
                     transition={{ duration: 1 }}
                 >
                 <Card
-                    className='items-center rounded-full px-12 py-8 bg-[rgb(253,183,45)] shadow shadow-xl shadow-[rgb(253,183,45)]/70 dark:bg-[rgb(84,34,195)] dark:shadow-[rgb(84,34,195)]/80 ease-in-out duration-150 my-6 w-7/8 lg:my-0 lg:w-96'
+                    className='items-center rounded-full px-12 py-8 bg-[rgb(253,183,45)] shadow-xl shadow-[rgb(253,183,45)]/70 dark:bg-[rgb(84,34,195)] dark:shadow-[rgb(84,34,195)]/80 ease-in-out duration-150 my-6 w-7/8 md:w-3/4 lg:my-0 lg:w-96'
                     direction={'column'}
                 >
                     <Image
@@ -63,7 +63,7 @@ export default function organizations () {
                     transition={{ delay: 0.2, duration: 1 }}
                 >
                 <Card
-                    className='items-center rounded-full px-12 py-8 bg-zinc-200 shadow shadow-xl shadow-zinc-200/70 dark:bg-zinc-800 dark:shadow-zinc-800/80 ease-in-out duration-150 my-6 w-7/8 lg:my-0 lg:w-96'
+                    className='items-center rounded-full px-12 py-8 bg-zinc-200 shadow-xl shadow-zinc-200/70 dark:bg-zinc-800 dark:shadow-zinc-800/80 ease-in-out duration-150 my-6 w-7/8 md:w-3/4 lg:my-0 lg:w-96'
                     direction={'column'}
                 >
                     <Image
@@ -93,7 +93,7 @@ export default function organizations () {
                     transition={{ delay: 0.4, duration: 1 }}
                 >
                 <Card
-                    className='items-center rounded-full px-12 py-8 bg-[rgb(253,183,45)] shadow shadow-xl shadow-[rgb(253,183,45)]/70 dark:bg-[rgb(84,34,195)] dark:shadow-[rgb(84,34,195)]/80 ease-in-out duration-150 my-6 w-7/8 lg:my-0 lg:w-96'
+                    className='items-center rounded-full px-12 py-8 bg-[rgb(253,183,45)] shadow-xl shadow-[rgb(253,183,45)]/70 dark:bg-[rgb(84,34,195)] dark:shadow-[rgb(84,34,195)]/80 ease-in-out duration-150 my-6 w-7/8 md:w-3/4 lg:my-0 lg:w-96'
                     direction={'column'}
                 >
                     <Image

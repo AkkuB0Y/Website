@@ -63,7 +63,7 @@ export default function Navbar () {
                 <Link href="/" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-300">
                     <FaHome/>
                 </Link>
-                <Link href="https://drive.google.com/file/d/1-4xwaTY2JIz_HZZzTsDOu8u7m7Tz2S9w/view?usp=sharing" target="_blank" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-300">
+                <Link href="https://drive.google.com/file/d/1hCdUzmmwG0k3NCLbtRDXuYlOY8S1TlUP/view?usp=sharing" target="_blank" className="px-4 py-4 align-top inline-flex hover:text-[rgb(84,34,195)] dark:hover:text-[rgb(253,183,45)] dark:text-slate-50 ease-in-out duration-300">
                         <IoDocumentText/></Link>
             </div>
 

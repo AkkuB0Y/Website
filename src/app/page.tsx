@@ -60,7 +60,7 @@ export default function Home() {
 
             Please take your time to go through this website and its contents. If you would like to contact me for
             professional inquiries, please email me at <span className="hover:underline">asatish@uwaterloo.ca</span> and 
-            see my <Link href="https://drive.google.com/file/d/1-4xwaTY2JIz_HZZzTsDOu8u7m7Tz2S9w/view?usp=sharing" target = "_blank" className="text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Resume</Link>
+            see my <Link href="https://drive.google.com/file/d/1hCdUzmmwG0k3NCLbtRDXuYlOY8S1TlUP/view?usp=sharing" target = "_blank" className="text-[rgb(84,34,195)] hover:underline dark:text-[rgb(253,183,45)] ease-in-out duration-150">Resume</Link>
             . For personal inquiries, email me at <span className="hover:underline">akkusat1987@gmail.com</span>.
 
           </text>
