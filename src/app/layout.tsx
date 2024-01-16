@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,8 +13,8 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/favicon.ico',
-        href: '/favicon.ico',
+        url: './favicon.ico',
+        href: './favicon.ico',
       },
     ],
   },
@@ -27,6 +28,10 @@ export default function RootLayout({
 
   return (
       <html lang="en">
+
+        <Head>
+          <link rel="icon" href="./favicon.ico" sizes="any" />
+        </Head>
 
         <body className={inter.className + " bg-zinc-100 dark:bg-zinc-900 ease-in-out duration-150 space-y-4"}>
         

@@ -3,6 +3,7 @@ import * as React from 'react';
 
 export default function fun () {
 
+    // unused for now, maybe will have some cool stuff in future updates :-D
     return (
 
         <main className ="text-slate-900 dark:text-slate-50 ease-in-out duration-150">
