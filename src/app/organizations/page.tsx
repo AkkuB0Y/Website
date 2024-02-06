@@ -14,6 +14,7 @@ export default function organizations () {
             initial={{ opacity: 0.05 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
+            className='pt-16'
         >
         <main className = "text-slate-900 dark:text-slate-50 ease-in-out duration-150">
 
@@ -25,7 +26,7 @@ export default function organizations () {
             <span className="text-shadow-lg shadow-orange-400/40"> Experiences</span>
             </LinearGradient>
 
-            <div className='flex flex-col lg:flex-row md:flex-col objects-center justify-evenly mt-24 mx-8'>
+            <div className='flex flex-col lg:flex-row md:flex-col objects-center justify-evenly mt-[7%] mx-8'>
                 
                 <motion.div
                     initial={{ opacity: 0.05 }}

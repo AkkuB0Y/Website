@@ -30,10 +30,10 @@ export default function RootLayout({
       <html lang="en">
 
         <Head>
-          <link rel="icon" href="./favicon.ico" sizes="any" />
+          <link rel="icon" href="./public/favicon.ico" sizes="any" />
         </Head>
 
-        <body className={inter.className + " bg-zinc-100 dark:bg-zinc-900 ease-in-out duration-150 space-y-4"}>
+        <body className={inter.className + " bg-zinc-100 dark:bg-zinc-900 ease-in-out duration-150 space-y-4 flex flex-col justify-between min-h-screen"}>
         
           <Navbar/>
           {children}   

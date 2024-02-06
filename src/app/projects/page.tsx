@@ -14,6 +14,7 @@ export default function projects() {
         initial={{ opacity: 0.05 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
+        className='pt-16'
       >
     <main className="text-slate-900 dark:text-slate-50 ease-in-out duration-150">
 
@@ -26,7 +27,7 @@ export default function projects() {
         </LinearGradient>
       </h1></center>
 
-      <div className='z-0 mx-[1%] lg:mx-[25%] md:mx-[15%] sm:mx-[0%] mt-24 flex flex-col justify-between text-base text-center font-light'>
+      <div className='z-0 mx-[1%] lg:mx-[25%] md:mx-[15%] sm:mx-[0%] mt-20 flex flex-col justify-between text-base text-center font-light'>
         
        <motion.div
           initial={{ opacity: 0.05 }}
@@ -50,7 +51,7 @@ export default function projects() {
             </text>
 
             <text>
-              Enhanced the KillTheBurr website using WordPress Elementor, Bluehost and HTML.
+              Enhanced the KillTheBurr website using WordPress Gutenberg & Elementor editors, Bluehost and HTML/CSS.
             </text>
 
             <Link href="https://killtheburr.com" target='_blank' className = "mt-1 px-1 py-2 w-16 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">

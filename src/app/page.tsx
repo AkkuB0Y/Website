@@ -13,6 +13,7 @@ export default function Home() {
       initial={{ opacity: 0.05 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
+      className="justify-self-start pt-16"
     >
     <main className="text-slate-900 dark:text-slate-50 ease-in-out duration-150">
 

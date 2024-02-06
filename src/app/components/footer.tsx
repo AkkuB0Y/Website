@@ -12,10 +12,11 @@ export default function Footer () {
             initial={{ opacity: 0.05 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1.5 }}
+            className='flex flex-row justify-center'
         >
-        <main className="items-center text-center">
+        <main>
 
-            <div className="text-center items-center sticky bottom-0 mt-12 place-content-center lg:mt-56 md:flex md:mt-36 sm:flex sm:mt-12">
+            <div className="flex mt-12 pb-2 lg:mt-16 md:mt-36 sm:mt-12">
             
                 <Link href="https://github.com/AkkuB0Y" target="_blank" className = "px-4 py-4 text-center items-center inline-block rounded-xl hover:bg-zinc-200 ease-in-out duration-300 dark:hover:bg-zinc-700 dark:text-slate-50">
                     <FaGithubSquare className="text-2xl"/></Link>

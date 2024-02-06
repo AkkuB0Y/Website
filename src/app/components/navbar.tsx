@@ -57,6 +57,7 @@ export default function Navbar () {
             initial={{ opacity: 0.05 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
+            className='absolute top-0 min-w-[100vw]'
             >
         <nav className = "mt-3 flex flex-row justify-between text-sm">
             <div className="text-left no-underline text-zinc-600 font-semibold font-serif text-2xl align-top">
