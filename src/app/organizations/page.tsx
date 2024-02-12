@@ -79,7 +79,7 @@ export default function organizations () {
                     </text>
 
                     <text className='text-lg font-light mt-4 italic'>
-                        Firmware review + testing in C/Python.
+                        Firmware Dev in C/Python + UI Design in Figma.
                     </text>
 
                     <Link href="https://www.uwfsae.ca/who-we-are-1" target='_blank' className = "mt-4 px-1 py-2 w-24 text-base font-light text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
@@ -100,19 +100,19 @@ export default function organizations () {
                     <Image
                         className='rounded-full outline outline-3'
                         boxSize={'150px'}
-                        src='msm.png'
-                        alt='Main St. Music'
+                        src='ktb.png'
+                        alt='KillTheBurr'
                     />
 
                     <text className='text-2xl font-medium mt-4'>
-                        Main St. Music
+                        killtheburr.com
                     </text>
 
                     <text className='text-lg font-light mt-4 italic'>
-                        Guitar Instructor + Web Developer for killtheburr.com
+                        Enhancing the KillTheBurr website using WordPress.
                     </text>
 
-                    <Link href="https://mainstmusic.ca" target='_blank' className = "mt-4 px-1 py-2 w-24 text-base font-light text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+                    <Link href="https://killtheburr.com" target='_blank' className = "mt-4 px-1 py-2 w-24 text-base font-light text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
                         Website</Link>
 
                 </Card>

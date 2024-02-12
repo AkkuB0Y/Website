@@ -29,36 +29,6 @@ export default function projects() {
 
       <div className='z-0 mx-[1%] lg:mx-[25%] md:mx-[15%] sm:mx-[0%] mt-20 flex flex-col justify-between text-base text-center font-light'>
         
-       <motion.div
-          initial={{ opacity: 0.05 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-        <Card 
-          className = "flex flex-row justify-between align-middle items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
-          direction={'row'}
-          >
-          <Image
-            className = "rounded-full outline outline-3 align-middle max-w-none"
-            boxSize = '100px'
-            maxW={'100%'}
-            src='ktb.png'
-            alt='ktb'
-          />
-          <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
-            <text className='text-2xl font-medium'>
-              killtheburr.com
-            </text>
-
-            <text>
-              Enhanced the KillTheBurr website using WordPress Gutenberg & Elementor editors, Bluehost and HTML/CSS.
-            </text>
-
-            <Link href="https://killtheburr.com" target='_blank' className = "mt-1 px-1 py-2 w-16 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
-              Link</Link>
-          </Stack>
-        </Card>
-        </motion.div>
 
         <motion.div
             initial={{ opacity: 0.05 }}
@@ -66,7 +36,7 @@ export default function projects() {
             transition={{ delay: 0.3, duration: 1 }}
         >
         <Card 
-          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          className = "flex flex-row justify-between align-middle items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
           direction={'row'}
           >
           <Image
@@ -82,7 +52,7 @@ export default function projects() {
             </text>
 
             <text>
-            <span className='font-bold'>MedX Challenge Winner & Top 10</span><br/>Mobile app designed to streamline prescription transfer between physicians, pharmacists and patients. 
+            <span className='font-bold'>MedX Challenge Winner & Top 10 🏆</span><br/>Mobile app designed to streamline prescription transfer between physicians, pharmacists and patients. 
             Made with React Native, Flask, Cloud Vision OCR and Open AI API.
             </text>
 
@@ -92,6 +62,37 @@ export default function projects() {
               <Link href="https://devpost.com/software/pharmfill" target='_blank' className = "mt-1 px-1 py-2 w-24 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
                 Devpost</Link>
             </Stack>
+          </Stack>
+        </Card>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0.05 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
+        <Card 
+          className = "flex flex-row justify-between align-middle mt-8 items-center rounded-xl px-8 py-6 bg-zinc-200 dark:bg-zinc-800 ease-in-out duration-150"
+          direction={'row'}
+          >
+          <Image
+            className = "rounded-full outline outline-3 align-middle max-w-none invert dark:invert-0"
+            boxSize = '100px'
+            maxW={'100%'}
+            src='spotify2.png'
+            alt='spotify'
+          />
+          <Stack direction={'column'} className='ml-[9%] mt-1 text-left'>
+            <text className='text-2xl font-medium'>
+              Spotify Remake
+            </text>
+
+            <text>
+              Full-stack remake of Spotify, complete with authentication, favourites, and custom song upload. <span className='italic'>(Ongoing)</span>
+            </text>
+
+            <Link href="https://github.com/AkkuB0Y/spotify-remake" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+              GitHub</Link>
           </Stack>
         </Card>
         </motion.div>
@@ -121,8 +122,8 @@ export default function projects() {
               Parallax image gallery of critically endangered animals, created using Svelte.js and HTML/CSS
             </text>
 
-            <Link href="https://github.com/AkkuB0Y/Save-the-Planet" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
-              GitHub</Link>
+            <Link href="https://save-the-planet-mu.vercel.app" target='_blank' className = "mt-1 px-1 py-2 w-16 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
+              Link</Link>
           </Stack>
         </Card>    
         </motion.div>
