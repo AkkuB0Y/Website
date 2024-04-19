@@ -88,7 +88,7 @@ export default function projects() {
             </text>
 
             <text>
-              Full-stack remake of Spotify, complete with authentication, favourites, and custom song upload. <span className='italic'>(Ongoing)</span>
+              Full-stack remake of Spotify, complete with authentication, favourites, and custom song upload.
             </text>
 
             <Link href="https://github.com/AkkuB0Y/spotify-remake" target='_blank' className = "mt-1 px-1 py-2 w-20 text-center rounded-2xl text-slate-50 bg-zinc-700 hover:underline dark:text-zinc-600 dark:bg-zinc-100 ease-in-out duration-150">
